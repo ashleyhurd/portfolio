@@ -87,6 +87,371 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    color: #453E4F;
+    background-color: white;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #453E4F;
+    text-decoration: none;
+  }
+  
+  h1 {
+    color: #453E4F;
+    font-family: 'Alike', serif;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    width: 100%
+  }
+  
+  h2 {
+    color: #453E4F;
+    font-family: 'Alike', serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    width: 100%;
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.25rem;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+  }
+  
+  .language-wrapper p,
+  .tool-wrapper p {
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    color: #453E4F;
+  }
+  
+  
+  
+  .about-info h4,
+  .contact-title {
+    font-weight: 400;
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Alike', serif;
+    line-height: 1.5;
+    width: 100%
+  }
+  
+  p,
+  li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* Structural Styles */
+  header,
+  #work,
+  #skills,
+  #about,
+  footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+  }
+  
+  .content-wrapper {
+    width: 85%;
+  }
+  
+  #work p,
+  #about p {
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* 0 out browser margins */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* set the margin & paddings */
+  header {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  
+  nav {
+    margin-bottom: 60px;
+  }
+  
+  #work {
+    padding-top: 60px;
+  }
+  
+  #skills {
+    padding-bottom: 80px;
+  }
+  
+  #about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  footer {
+    padding: 80px 0;
+  }
+  
+  h2 {
+    margin-top: 60px;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    margin: 0 0 40px 0;
+  }
+  
+  .project-description {
+    margin: 0 0 30px 0;
+  }
+  
+  #skills {
+    padding-top: 80px;
+  }
+  
+  figure {
+    margin: 20px 0 40px 0;
+  }
+  
+  .skills-header {
+    margin-bottom: 20px;
+  }
+  
+  .about-info h3 {
+    margin: 40px 0 40px 0;
+  }
+  
+  .about-text {
+    margin: 0 0 30px 0;
+  }
+  
+  #contact h3 {
+    margin-bottom: 60px;
+  }
+  
+  .contact-info {
+    margin: 0 0 60px 0;
+  }
+  
+  .contact-title {
+    margin: 0 0 40px 0;
+  }
+  
+  /* -------------------- Base Header Styles -------------------- */
+  
+  header {
+    background-color: #EEEFDA;
+  }
+  
+  header nav ul li {
+    font-size: .75rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav #contact-link {
+    background-color: #CAC691;
+    padding: 10px 10px;
+    border-radius: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    width: 100%;
+  }
+  
+  header h2 {
+    width: 100%
+  }
+  
+  /* -------------------- Mobile Styles - Homepage -------------------- */
+  
+  /* Portfolio */
+  #work,
+  #skills {
+    width: 100%;
+  }
+  
+  #work h3 {
+    width: 100%;
+  }
+  
+  .portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+  
+  .home-portfolio-piece {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .home-portfolio-piece h4 {
+    font-weight: bold;
+  }
+  
+  .home-portfolio-piece figure {
+    width: 60%;
+    filter: drop-shadow(1px 2px 6px lightgrey);
+  }
+  
+  #skills {
+    background-color: #EEEFDA;
+  }
+  
+  #skills h4 {
+    margin: 40px 0 40px 0;
+    font-weight: bold;
+  }
+  
+  .language-wrapper p,
+  .tool-wrapper p {
+    background-color: #CAC691;
+    padding: 15px 0;
+    margin: 20px 0;
+  }
+  
+  .tool {
+    width: 100%;
+  }
+  
+  /* About */
+  #about {
+    width: 100%;
+  }
+  
+  #profile-image {
+    width: 30%;
+  }
+  
+  #about h3,
+  #about h4,
+  #about p {
+    color: #4a4f3e;
+  }
+  
+  /* -------------------- Base Header Styles -------------------- */
+  footer {
+    background-color: #EEEFDA;
+  }
+  
+  footer .contact-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  footer .contact-info {
+    width: 60%;
+  }
+  
+  footer h4 {
+    width: 100%;
+  }
+  
+  footer .follow-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer ul {
+    width: 100%;
+  }
+  
+  footer .social-icons li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .social-icons li i {
+    font-size: 1.875rem;
+    color: #453e4f;
+  }
+  
+  
+  
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
