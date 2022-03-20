@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js lang="en">
     <head>
         <meta charset="utf-8">
         <title>Ashley Hurd | Portfolio</title>
@@ -10,9 +10,11 @@
         <meta property="og:type" content="">
         <meta property="og:url" content="">
         <meta property="og:image" content="">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <meta name="theme-color" content="#fafafa">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap" rel="stylesheet">
@@ -50,7 +52,7 @@
                     <div class="content-wrapper">
                         <h3 class="portfolio-header">Projects</h3>
                         <div class="portfolio-wrapper">
-                            <!------(1) STICKY NOTE UI------->
+                            <!-----(1) STICKY NOTE UI------->
                             <div class="home-portfolio-piece">
                                 <figure>
                                     <a href="https://codesandbox.io/s/l14-build-your-big-component-forked-2g153e?file=/src/App.js" target="_blank">
@@ -135,7 +137,6 @@
                                     <a href="https://github.com/ashleyhurd/unplugged">
                                         <img src="img/unplugged.png" alt="Unplugged Site">
                                     </a>
-                                </figure>
                                 </figure>
                                 <h4>Unplugged</h4>
                                 <p class="project-description">
@@ -253,11 +254,20 @@
                     </div>
                 </div>
                 <p>
-                    "2022 | Ashley Hurd"
+                    Copyright
+                    <script>document.write(new Date().getFullYear())</script> | Ashley Hurd
                 </p>
             </div>
         </footer>
     
-    
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        
+        <script>
+            window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+          </script>
+          <script src="https://www.google-analytics.com/analytics.js" async></script>
     </body>
 </html>
