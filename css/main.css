@@ -174,8 +174,15 @@ textarea {
   
   img {
     width: 100%;
+    max-height: 225px;
+    max-width: 350px;
   }
-  
+
+  #about img {
+    max-height: 570px;
+    max-width: 430px;
+  }
+
   figure {
     margin: 0;
   }
@@ -341,7 +348,7 @@ textarea {
   
   .portfolio-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     flex-flow: row wrap;
   }
@@ -684,6 +691,7 @@ textarea {
     /* portfolio */
     .portfolio-wrapper {
       justify-content: space-around;
+      
     }
   
     .home-portfolio-piece {
@@ -924,7 +932,7 @@ textarea {
   
     /* portfolio */
     .home-portfolio-piece {
-      width: 30%;
+      width: 50%;
     }
   
     /* skills */
