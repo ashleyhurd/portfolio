@@ -368,6 +368,7 @@ textarea {
   
   .home-portfolio-piece figure {
     width: 60%;
+    
     filter: drop-shadow(1px 2px 6px lightgrey);
   }
   
@@ -700,7 +701,7 @@ textarea {
     }
   
     .project-description {
-      width: 95%;
+      width: 65%;
     }
   
     .language-wrapper,
