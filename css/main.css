@@ -207,7 +207,11 @@ textarea {
     width: 85%;
   }
   
-  #work p,
+  #work p {
+    width: 90%;
+    text-align: left;
+  }
+
   #about p {
     width: 100%;
     text-align: left;
@@ -665,7 +669,6 @@ textarea {
     }
   
     header nav {
-      /* keep if using hamburger menu */
       display: flex;
       justify-content: center;
       width: 100%;
@@ -673,7 +676,6 @@ textarea {
     }
   
     header nav ul {
-      /* keep if using hamburger menu */
       display: flex;
       justify-content: space-between;
       width: 80%;
