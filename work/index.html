@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashley Hurd | Portfolio</title>
+    <title>Ashley Hurd | Work</title>
 
     <script src="https://kit.fontawesome.com/736c5a8482.js" crossorigin="anonymous"></script>
 
@@ -14,13 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Montserrat:wght@100;400&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<body id="home-portfolio">
+
+<body id="work">
     <header>
         <div class="ha">
+            <a href="../index.html">H</a>
+            <a href="../about/index.html">A</a>
         </div>
         <nav>
             <ul>
@@ -42,27 +44,44 @@
         </nav>
     </header>
 
+    <!-- work -->
     <main>
         <div class="content-wrapper">
-            <div class="home-content">
-                <div class="title">
-                    <h1>Ashley Hurd</h1>
-                    <h2>Your Friendly Neighborhood Front End Developer.</h2>
+            <div class="work-container">
+                <h1>- Work & Projects -</h1>
+
+                <!-- slide 1 - Sticky Notes -->
+                <div class="container">
+                    <a href="https://2g153e.csb.app/" target="_blank" class="work-link">Sticky Notes UI</a>
+                    <p class="project-description">
+                        My first greenfield project creating a Sticky Notes web app. It uses multiple components to
+                        build a classic sticky note UI with the ability to add, edit, delete, and search through notes.
+                    </p>
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="../work/index.html" class="menu-link">work</a>
-                        </li>
-                        <li>
-                            <a href="../about/index.html" class="menu-link">about</a>
-                        </li>
-                    </ul>
+
+                <!-- 2 - Repo Gallery-->
+                <div class="container">
+                    <a href="https://ashleyhurd.github.io/github-repo-gallery/" target="_blank" class="work-link">GitHub
+                        Repo
+                        Gallery</a>
+                    <p class="project-description">
+                        An interactive UI that uses GitHub's API to pull my repo history from my GitHub
+                        portfolio to create a user friendly gallery of repos. Users can select repos and
+                        see details with a direct link to said repo.
+                    </p>
+                </div>
+
+                <!-- 3 - UnPlugged -->
+                <div class="container">
+                    <a href="https://ashleyhurd.github.io/unplugged/" target="_blank" class="work-link">Unplugged</a>
+                    <p class="project-description">
+                        A responsive website coded using Flexbox. Versatile website that can be repurposed
+                        and personalized for different sites.
+                    </p>
                 </div>
             </div>
         </div>
     </main>
-
     <footer>
         <div class="credits">
             <div class="copyright">
@@ -75,11 +94,6 @@
                     </a>
                 </p>
             </div>
-
         </div>
     </footer>
-
-
 </body>
-
-</html>
