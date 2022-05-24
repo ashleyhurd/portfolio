@@ -1,85 +1,297 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>Ashley Hurd | Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="https://kit.fontawesome.com/736c5a8482.js" crossorigin="anonymous"></script>
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Montserrat:wght@100;400&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Overpass:wght@100&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/736c5a8482.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="home-portfolio">
+<body>
     <header>
-        <div class="ha">
+        <div class="content-wrapper">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#work">projects</a>
+                    </li>
+                    <li>
+                        <a href="#skills">skills</a>
+                    </li>
+                    <li>
+                        <a href="#about">about</a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="contact-link">contact me</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="home-title">
+                <h1> Hey, I'm Ashley!</h1>
+                <h2> Your friendly, neighborhood Frontend Developer.</h2>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/ashleyhurddev/" target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                    <a href="https://github.com/ashleyhurd" target="_blank"><i class="fab fa-github"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ashhhurd/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="mailto: ashhurd16@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <div class="content-wrapper">
-            <div class="home-content">
-                <div class="title">
-                    <h1>Ashley Hurd</h1>
-                    <h2>Your Friendly Neighborhood Front End Developer.</h2>
+        <article class="portfolio">
+            <section id="work">
+                <div class="content-wrapper">
+                    <h3 class="portfolio-header">Projects</h3>
+                    <div class="portfolio-wrapper">
+                        <!--(1) Frontend mentor project -->
+                        <div class="home-portfolio-piece">
+                            <figure>
+                                <a href="https://ashleyhurd.github.io/frontendmentor-rating-component/" target="_blank">
+                                    <img src="img/Screen Shot 2022-05-23 at 5.42.47 PM.png" alt="Rating Project">
+                                </a>
+                            </figure>
+                            <h4>
+                                Rating Component
+                            </h4>
+                            <p class="project-description">
+                                A challenge that I completed from Frontend Mentor. I was required to structure the HTML,
+                                and add CSS and JavaScript in order to match the design photos.
+                            </p>
+                            <p>
+                                <span>
+                                    Necessary skills:
+                                </span>
+                                HTML, CSS, Javascript
+                            </p>
+                            <p>
+                                <span>
+                                    Tools needed:
+                                </span>
+                                GitHub Pages, Figma, Chrome DevTools
+                            </p>
+                            <!--live page button omitted-->
+                        </div>
+                        <!--(1) STICKY NOTE UI -->
+                        <div class="home-portfolio-piece">
+                            <figure>
+                                <a href="https://2g153e.csb.app/" target="_blank">
+                                    <img src="img/stickynote.png" alt="Sticky Note Projects">
+                                </a>
+                            </figure>
+                            <h4>
+                                Sticky Notes
+                            </h4>
+                            <p class="project-description">
+                                My first greenfield project creating a Sticky Notes web app. It uses multiple components
+                                to build
+                                a classic sticky note UI with the ability to add, edit, delete, and search through
+                                notes.
+                            </p>
+                            <p>
+                                <span>
+                                    Necessary skills:
+                                </span>
+                                React, JSX, Components
+                            </p>
+                            <p>
+                                <span>
+                                    Tools needed:
+                                </span>
+                                CodeSandbox, Props, State
+                            </p>
+                            <!--live page button omitted-->
+                        </div>
+                        <!--(2)REPO GALLERY-->
+                        <div class="home-portfolio-piece">
+                            <figure>
+                                <a href="https://ashleyhurd.github.io/github-repo-gallery/" target="_blank">
+                                    <img src="img/repogallery.png" alt="GitHub Repo Gallery">
+                                </a>
+                            </figure>
+                            <h4>
+                                GitHub Repo Gallery
+                            </h4>
+                            <p class="project-description">
+                                An interactive UI that uses GitHub's API to pull my repo history from my GitHub
+                                portfolio to create a user friendly gallery of repos. Users can select repos and
+                                see details with a direct link to said repo.
+                            </p>
+                            <p>
+                                <span>
+                                    Necessary skills:
+                                </span>
+                                JavaScript
+                            </p>
+                            <p>
+                                <span>
+                                    Tools needed:
+                                </span>
+                                REST API, GitHub Pages
+                            </p>
+                            <!--live page button omitted-->
+                        </div>
+                        <!--(3)GUESSTHEWORD-->
+                        <div class="home-portfolio-piece">
+                            <figure>
+                                <a href="https://ashleyhurd.github.io/guess-the-word/" target="_blank">
+                                    <img src="img/guesstheword.png" alt="Guess the Word Game">
+                                </a>
+                            </figure>
+                            <h4>Guess the Word Game</h4>
+                            <p class="project-description">
+                                Players and visitors of this site can guess the word by entering one letter at a time.
+                                the player is allotted 8 guesses, if they guess all the letters correctly.. they win!
+                            </p>
+                            <p>
+                                <span>Necessary skills:</span>
+                                JavaScript
+                            </p>
+                            <p>
+                                <span>Tools needed:</span>
+                                GitHub Pages, JSON
+                            </p>
+                            <!--live page button omitted-->
+                        </div>
+                        <!--(4)UNPLUGGED-->
+                        <div class="home-portfolio-piece">
+                            <figure>
+                                <a href="https://ashleyhurd.github.io/unplugged/" target="_blank">
+                                    <img src="img/unplugged.png" alt="Unplugged Site">
+                                </a>
+                            </figure>
+                            <h4>Unplugged</h4>
+                            <p class="project-description">
+                                A responsive website coded using Flexbox. Versatile website that can be repurposed
+                                and personalized for different sites.
+                            </p>
+                            <p>
+                                <span>Necessary skills:</span>
+                                HTML, CSS, Flexbox
+                            </p>
+                            <p>
+                                <span>Tools needed:</span>
+                                Photoshop, Chrome DevTools, GitHub Pages
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="../work/index.html" class="menu-link">work</a>
-                        </li>
-                        <li>
-                            <a href="../about/index.html" class="menu-link">about</a>
-                        </li>
-                    </ul>
+            </section>
+            <section id="skills">
+                <div class="content-wrapper">
+                    <h3 class="skills-header">Developer Skills</h3>
+                    <div class="language-wrapper">
+                        <p class="skill">HTML5</p>
+                        <p class="skill">CSS</p>
+                        <p class="skill">JavaScript ES6</p>
+                        <p class="skill">React</p>
+                        <p class="skill">APIS</p>
+                        <p class="skill">Git & GitHub</p>
+                    </div>
+                    <h3 class="skills-header">Tech Stack</h3>
+                    <div class="tool-wrapper">
+                        <p class="tool">Chrome DevTools</p>
+                        <p class="tool">GitHub</p>
+                        <p class="tool">CodeSandbox</p>
+                        <p class="tool">Visual Studio Code</p>
+                        <p class="tool">Adobe Photoshop</p>
+                        <p class="tool">Figma</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <section id="about">
+            <div class="content-wrapper">
+                <div class="about-content-wrapper">
+                    <figure>
+                        <img src="img/ashdais.jpg" alt="" id="profile-image">
+                    </figure>
+                    <div class="about-info">
+                        <h3>
+                            Hi! I'm Ashley Hurd
+                        </h3>
+                        <h4>
+                            I'm a Front End Web Developer who enjoys creating clean, interactive websites.
+                        </h4>
+                        <p class="about-text">
+                            I have been interested in technology ever since I was a kid. My dad used
+                            to build computers for my sister and me to play video games. My love for technology and
+                            video
+                            gamesbecame something I was embarrassed by growing up because none of my friends were as
+                            interested as I was. As an adult, I've finally embraced my passion for technology. I dream
+                            of building a PC
+                            and working in tech with hopes of learning Full Stack!
+                            <br>
+                            When I'm not coding, I'm going for walks with my dog, playing my PS4 or switch, spending
+                            time with family and friends, or trying a new restaurant!
+                        </p>
+                        <p>
+                            <span> Can't wait to work with you!</span>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="credits">
-            <div class="copyright">
-                <p>
-                    Copyright
-                    <script>document.write(new Date().getFullYear())</script> | Ashley Hurd <br>
-                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                        <img style="border:0;width:88px;height:31px"
-                            src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
-                    </a>
-                </p>
+    <footer id="contact">
+        <div class="content-wrapper">
+            <h3>
+                Let's Connect
+            </h3>
+            <div class="contact-wrapper">
+                <ul class="social-icons">
+                    <li>
+                        <a href="mailto:ashhurd16@gmail.com"><i class="fas fa-at"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ashleyhurdmr/" target=_blank><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ashleyhurd" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ashhhurd/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
             </div>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
+                </a>
+            </p>
+            <p>
+                Copyright
+                <script>document.write(new Date().getFullYear())</script> | Ashley Hurd
+            </p>
 
         </div>
     </footer>
 
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
