@@ -427,7 +427,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5em 0;
+    margin: 1.5em 1em;
     padding: 0;
   }
 
@@ -441,6 +441,9 @@ textarea {
     font-size: .8rem;
   }
   
+  .social-icons i {
+    margin: 15px;
+  }
   
   
 
